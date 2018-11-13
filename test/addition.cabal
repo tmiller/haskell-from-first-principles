@@ -1,0 +1,14 @@
+name:          addition
+version:       0.1.0.0
+category:      Text
+build-type:    Simple
+cabal-version: >=1.0
+
+library
+  exposed-modules:    Addition
+  ghc-options:        -WAll -fwarn-tabs
+  hs-source-dirs:     .
+  default-langauges:  Haskell2010
+  build-depends:      base >=4.7 && <5
+                     ,hspec
+                     ,QuickCheck
